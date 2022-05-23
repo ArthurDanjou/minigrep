@@ -80,7 +80,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn sensible_casse() {
+    fn sensible_case() {
         let research = "duct";
         let content = "\
 Rust:
@@ -92,7 +92,7 @@ Duck tape.";
     }
 
     #[test]
-    fn insensible_casse() {
+    fn insensible_case() {
         let research = "rUsT";
         let content = "\
 Rust:
